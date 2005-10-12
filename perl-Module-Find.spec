@@ -6,7 +6,7 @@
 %define	pdir	Module
 %define	pnam	Find
 Summary:	Module::Find - Find and use installed modules in a (sub)category
-#Summary(pl):	
+Summary(pl):	Module::Find - wyszukiwanie i u¿ywanie modu³ów w (pod)kategorii
 Name:		perl-Module-Find
 Version:	0.04
 Release:	1
@@ -21,12 +21,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Module::Find lets you find and use modules in categories. This can be very 
-useful for auto-detecting driver or plugin modules. You can differentiate
-between looking in the category itself or in all subcategories.
+Module::Find lets you find and use modules in categories. This can be
+very useful for auto-detecting driver or plugin modules. You can
+differentiate between looking in the category itself or in all
+subcategories.
 
-# %description -l pl
-# TODO
+%description -l pl
+Module::Find pozwala odnale¼æ i u¿ywaæ moduly w kategoriach. Mo¿e to
+byæ bardzo przydatne do automatycznego wykrywania modu³ów sterowników
+lub wtyczek. Mo¿na rozró¿niæ pomiêdzy szukaniem w ramach samej
+kategorii lub wszystkich podkategoriach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
