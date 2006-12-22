@@ -8,13 +8,14 @@
 Summary:	Module::Find - Find and use installed modules in a (sub)category
 Summary(pl):	Module::Find - wyszukiwanie i u¿ywanie modu³ów w (pod)kategorii
 Name:		perl-Module-Find
-Version:	0.04
+Version:	0.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	075a92ae9646e661f38f2e2a2ef34847
+Source0:	http://www.cpan.org/modules/by-module/Module/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	1b756c84e476fc8179fcf2699a4d1a86
+URL:		http://search.cpan.org/dist/Module-Find/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -30,7 +31,7 @@ subcategories.
 Module::Find pozwala odnale¼æ i u¿ywaæ moduly w kategoriach. Mo¿e to
 byæ bardzo przydatne do automatycznego wykrywania modu³ów sterowników
 lub wtyczek. Mo¿na rozró¿niæ pomiêdzy szukaniem w ramach samej
-kategorii lub wszystkich podkategoriach.
+kategorii lub we wszystkich podkategoriach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -54,5 +55,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/Module/*.pm
+%{perl_vendorlib}/Module/Find.pm
 %{_mandir}/man3/*
