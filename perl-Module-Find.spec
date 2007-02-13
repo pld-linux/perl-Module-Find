@@ -6,7 +6,7 @@
 %define	pdir	Module
 %define	pnam	Find
 Summary:	Module::Find - Find and use installed modules in a (sub)category
-Summary(pl.UTF-8):   Module::Find - wyszukiwanie i używanie modułów w (pod)kategorii
+Summary(pl.UTF-8):	Module::Find - wyszukiwanie i używanie modułów w (pod)kategorii
 Name:		perl-Module-Find
 Version:	0.05
 Release:	1
