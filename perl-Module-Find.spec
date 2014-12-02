@@ -1,20 +1,20 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Module
 %define	pnam	Find
+%include	/usr/lib/rpm/macros.perl
 Summary:	Module::Find - Find and use installed modules in a (sub)category
 Summary(pl.UTF-8):	Module::Find - wyszukiwanie i używanie modułów w (pod)kategorii
 Name:		perl-Module-Find
-Version:	0.10
+Version:	0.12
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Module/CRENZ/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bdc4687d0782157e9335f4dc31369d01
+# Source0-md5:	abd614f3ebca68b4e7cc474400a8c0f2
 URL:		http://search.cpan.org/dist/Module-Find/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
