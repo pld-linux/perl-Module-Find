@@ -8,13 +8,13 @@
 Summary:	Module::Find - Find and use installed modules in a (sub)category
 Summary(pl.UTF-8):	Module::Find - wyszukiwanie i używanie modułów w (pod)kategorii
 Name:		perl-Module-Find
-Version:	0.12
+Version:	0.13
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Module/CRENZ/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	abd614f3ebca68b4e7cc474400a8c0f2
+Source0:	http://www.cpan.org/modules/by-module/Module/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	28a11699901c2b07795ad59827d6ee66
 URL:		http://search.cpan.org/dist/Module-Find/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
