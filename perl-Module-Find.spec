@@ -4,7 +4,6 @@
 
 %define	pdir	Module
 %define	pnam	Find
-%include	/usr/lib/rpm/macros.perl
 Summary:	Module::Find - Find and use installed modules in a (sub)category
 Summary(pl.UTF-8):	Module::Find - wyszukiwanie i używanie modułów w (pod)kategorii
 Name:		perl-Module-Find
